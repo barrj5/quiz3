@@ -82,6 +82,7 @@ main {
     width: 30%;
     float: left;
     display: flex;
+    justify-content:flex-start;
     flex-direction: column;
 }
 
@@ -89,6 +90,8 @@ main {
     width: 60%;
     float: right;
     flex-direction: row;
+    justify-content:center;
+    text-align:center
     flex-wrap: wrap;
     display: flex;
 }
